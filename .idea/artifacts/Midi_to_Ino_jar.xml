@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Midi to Ino:jar">
+    <output-path>$PROJECT_DIR$/build</output-path>
+    <root id="archive" name="Midi to Ino.jar">
+      <element id="module-output" name="Midi to Ino" />
+    </root>
+  </artifact>
+</component>
