@@ -13,3 +13,5 @@ The Arduino is really limited when it comes to playing tunes this way so if you 
 
 This was a quick weekend project to get my mind off my other work. 
 I normally don't share these sketches but I am pretty happy with this project and I do plan to update it.
+
+Compiled JAR: https://github.com/sjoerd108/MIDI-to-INO/raw/42c6d32cb851aad023075ac3f5f55c67f34bdee9/build/Midi%20to%20Ino.jar
