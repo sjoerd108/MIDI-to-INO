@@ -3,7 +3,7 @@ A program that allows you to convert a track from a MIDI file to Arduino code.
 
 This program allows you to take a MIDI file and convert it into Arduino code. The code generated can run stand alone on a Arduino and is able to play a chiptune based on the notes in the specified MIDI file. 
 
-The inspiration to make this program came from this tutorial: ahttps://www.arduino.cc/en/Tutorial/toneMelody
+The inspiration to make this program came from this tutorial: https://www.arduino.cc/en/Tutorial/toneMelody
 
 If you want to try it out then here is how you setup your circuit:
 Take a speaker and connect its positive terminal to pin 8 and its negative terminal to GND.

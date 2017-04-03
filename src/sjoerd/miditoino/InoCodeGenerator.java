@@ -1,3 +1,18 @@
+/*
+MIT License
+
+Copyright (c) 2017 Sjoerd Dal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+*/
 package sjoerd.miditoino;
 
 import javax.swing.*;
@@ -11,18 +26,18 @@ import java.nio.file.StandardOpenOption;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class InoCodeGenerator {
+class InoCodeGenerator {
 
     private TreeMap<Long, Note> simplifiedMidiFile;
     private Component component;
     private static final String[] NOTE_NAMES = {"NOTE_C", "NOTE_CS", "NOTE_D", "NOTE_DS", "NOTE_E", "NOTE_F", "NOTE_FS", "NOTE_G", "NOTE_GS", "NOTE_A", "NOTE_AS", "NOTE_B"};
 
-    public InoCodeGenerator(TreeMap<Long, Note> simplifiedMidiFile, Component component){
+    InoCodeGenerator(TreeMap<Long, Note> simplifiedMidiFile, Component component) {
         this.simplifiedMidiFile = simplifiedMidiFile;
         this.component = component;
     }
 
-    public void generateCode(boolean loop, int speedMultiplier) throws StringIndexOutOfBoundsException, IOException{
+    void generateCode(boolean loop, int speedMultiplier) throws StringIndexOutOfBoundsException, IOException {
 
         StringBuilder noteSequence = new StringBuilder();
         StringBuilder noteDurations = new StringBuilder();
