@@ -12,6 +12,6 @@ https://www.arduino.cc/en/uploads/Tutorial/Tone_Fritzing.png
 The Arduino is really limited when it comes to playing tunes this way so if you are browsing the Internet for midi files then make sure you pick simple files that have the melody you want on the same track. This means not all songs will sound good. If your song is very long you might also run into a problem which is the limited memory for global variables. The program lets you select a maximum number of notes before cutting out to stay within the memory boundaries of the Arduino memory.
 
 This was a quick weekend project to get my mind off my other work. 
-I normally don't share these sketches but I am pretty happy with this project and I do plan to update it.
+I normally don't share these sketches but I am pretty happy with this project.
 
 Compiled JAR: https://github.com/sjoerd108/MIDI-to-INO/raw/42c6d32cb851aad023075ac3f5f55c67f34bdee9/build/Midi%20to%20Ino.jar
